@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=15:D8:D9:49:62:A3:4B:27:11:BF:50:C4:3F:2E:2E:57:63:69:16:EE%3Bbr.com.goschool.goschool_mobile.activity
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    15:D8:D9:49:62:A3:4B:27:11:BF:50:C4:3F:2E:2E:57:63:69:16:EE
+
+    SHA-1 certificate fingerprint:
+    15:D8:D9:49:62:A3:4B:27:11:BF:50:C4:3F:2E:2E:57:63:69:16:EE
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCrVvedd2OyCdcoGL1PY0eksmyAL20yAv8</string>
+</resources>
