@@ -8,53 +8,57 @@
     android:orientation="vertical"  >
 
     <EditText
+        android:id="@+id/etOrigin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etOrigin"
-        android:hint="Enter origin address" />
+        android:hint="Endereço Inicial" />
 
     <EditText
+        android:id="@+id/etDestination"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter destination address"
-        android:id="@+id/etDestination" />
+        android:hint="Endereço de Destino" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
+
         <Button
+            android:id="@+id/btnFindPath"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Find path"
-            android:id="@+id/btnFindPath" />
-        <ImageView
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="5dp"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:src="@drawable/ic_distance"/>
-        <TextView
-            android:layout_marginLeft="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0 km"
-            android:id="@+id/tvDistance" />
+            android:text="Gerar Rota" />
 
         <ImageView
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="5dp"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:padding="5dp"
-            android:src="@drawable/ic_clock"/>
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_distance" />
+
         <TextView
-            android:layout_marginLeft="5dp"
+            android:id="@+id/tvDistance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0 min"
-            android:id="@+id/tvDuration" />
+            android:layout_marginLeft="5dp"
+            android:text="0 km" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_clock" />
+
+        <TextView
+            android:id="@+id/tvDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="0 min" />
     </LinearLayout>
 
 

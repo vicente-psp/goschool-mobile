@@ -56,4 +56,10 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void abrirMapa(View view) {
+
+        Intent intent = new Intent(this, MapsActivity.class);
+        startActivity(intent);
+    }
 }
