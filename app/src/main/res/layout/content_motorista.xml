@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MotoristaActivity"
+    tools:showIn="@layout/activity_motorista">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Motorista"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ListView
+        android:id="@+id/lvLivros"
+        android:layout_width="wrap_content"
+        android:layout_height="467dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="44dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

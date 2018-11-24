@@ -408,6 +408,10 @@
         "source": "C:\\Users\\aluno\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.0.aar\\97f5f30bca3a7eb94fbda42a2dc6f0e7\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
+        "merged": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_motorista.xml.flat",
+        "source": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\src\\main\\res\\layout\\activity_motorista.xml"
+    },
+    {
         "merged": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\aluno\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\c3fbc24eff5967e7bd0bcd5109db9db8\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
     },
@@ -1140,6 +1144,10 @@
         "source": "C:\\Users\\aluno\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.0.aar\\97f5f30bca3a7eb94fbda42a2dc6f0e7\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\build\\intermediates\\res\\merged\\debug\\layout_linha.xml.flat",
+        "source": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\src\\main\\res\\layout\\linha.xml"
+    },
+    {
         "merged": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\aluno\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\88b93b050a78510ae7b1d356e1dcc789\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
@@ -1366,6 +1374,10 @@
     {
         "merged": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
         "source": "C:\\Users\\aluno\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.0.aar\\e633229d4d2cad5191ee29b46d682267\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_motorista.xml.flat",
+        "source": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\src\\main\\res\\layout\\content_motorista.xml"
     },
     {
         "merged": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_dark.xml.flat",
@@ -1808,8 +1820,16 @@
         "source": "C:\\Users\\aluno\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.0.aar\\97f5f30bca3a7eb94fbda42a2dc6f0e7\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
+        "merged": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_motorista_edit.xml.flat",
+        "source": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\src\\main\\res\\layout\\activity_motorista_edit.xml"
+    },
+    {
         "merged": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_bottom_navigation_item_background.xml.flat",
         "source": "C:\\Users\\aluno\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.0.aar\\9a5dda0cbe02ea41a907304ae652e041\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_motorista_add.xml.flat",
+        "source": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\src\\main\\res\\layout\\activity_motorista_add.xml"
     },
     {
         "merged": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",

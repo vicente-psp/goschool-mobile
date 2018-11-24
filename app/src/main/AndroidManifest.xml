@@ -13,14 +13,9 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
 
-        <!-- <meta-data -->
-        <!-- android:name="com.google.android.geo.API_KEY" -->
-        <!-- android:value="@string/google_maps_key" /> -->
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
 
         <activity
             android:name=".activity.MainActivity"
@@ -52,13 +47,21 @@
         <activity
             android:name=".activity.MapsActivity"
             android:label="@string/title_activity_maps">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
 
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
 
         </activity>
+        <activity
+            android:name=".activity.MotoristaActivity"
+            android:label="@string/title_activity_motorista"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.MotoristaAddActivity" />
+        <activity android:name=".activity.MotoristaEditActivity"></activity>
     </application>
 
 </manifest>

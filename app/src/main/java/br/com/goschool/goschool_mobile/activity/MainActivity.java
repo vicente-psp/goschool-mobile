@@ -62,4 +62,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MapsActivity.class);
         startActivity(intent);
     }
+
+    public void abrirCadastroMotorista(View view) {
+
+        Intent intent = new Intent(this, MotoristaActivity.class);
+        startActivity(intent);
+    }
 }

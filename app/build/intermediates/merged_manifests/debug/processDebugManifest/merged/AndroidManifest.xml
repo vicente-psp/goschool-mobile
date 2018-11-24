@@ -22,13 +22,7 @@
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
-
-        <!-- <meta-data -->
-        <!-- android:name="com.google.android.geo.API_KEY" -->
-        <!-- android:value="@string/google_maps_key" /> -->
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
@@ -72,6 +66,12 @@
             <!-- </intent-filter> -->
 
         </activity>
+        <activity
+            android:name="br.com.goschool.goschool_mobile.activity.MotoristaActivity"
+            android:label="@string/title_activity_motorista"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="br.com.goschool.goschool_mobile.activity.MotoristaAddActivity" />
+        <activity android:name="br.com.goschool.goschool_mobile.activity.MotoristaEditActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

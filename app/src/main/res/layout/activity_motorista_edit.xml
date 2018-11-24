@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MotoristaEditActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edNome"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Nome do motorista" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edAutor"
+            android:layout_below="@+id/edNome"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Autor do motorista" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edAno"
+            android:layout_below="@+id/edAutor"
+            android:layout_alignParentStart="true"
+            android:hint="Ano do motorista" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alterar"
+            android:id="@+id/btnEditLivro"
+            android:layout_below="@+id/edAno"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btnDeleteLivro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnEditLivro"
+            android:layout_toEndOf="@+id/btnEditLivro"
+            android:text="Remover" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
