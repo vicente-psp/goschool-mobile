@@ -4,29 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".activity.MotoristaActivity"
     tools:showIn="@layout/activity_motorista">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:text="Motorista"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="0dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <ListView
-        android:id="@+id/lvLivros"
-        android:layout_width="wrap_content"
-        android:layout_height="467dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentStart="true"
-        tools:layout_editor_absoluteY="44dp"
-        tools:ignore="MissingConstraints" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ListView
+                android:id="@+id/lvLivros"
+                android:layout_width="wrap_content"
+                android:layout_height="467dp"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentStart="true"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="44dp" />
+        </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>

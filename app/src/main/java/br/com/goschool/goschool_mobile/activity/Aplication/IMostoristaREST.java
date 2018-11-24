@@ -13,7 +13,7 @@ import retrofit2.http.POST;
 import retrofit2.http.PUT;
 import retrofit2.http.Path;
 
-public interface ILivrosREST {
+public interface IMostoristaREST {
     @POST("Livros/webresources/br.ufs.tep.livros/inserir")
     Call<Void> insereLivro(@Body Motorista motorista);
 

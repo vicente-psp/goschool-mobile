@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import br.com.goschool.goschool_mobile.R;
-import br.com.goschool.goschool_mobile.activity.Aplication.ILivrosREST;
+import br.com.goschool.goschool_mobile.activity.Aplication.IMostoristaREST;
 import br.com.goschool.goschool_mobile.activity.Modulos.Motorista;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -32,8 +32,8 @@ public class MotoristaEditActivity extends AppCompatActivity {
         Intent intent = getIntent();
         final String id = Integer.toString(intent.getIntExtra("ID", 0));
 
-        final ILivrosREST iLivrosREST = ILivrosREST.retrofit.create(ILivrosREST.class);
-        final Call<Motorista> call = iLivrosREST.getLivroPorId(id);
+        final IMostoristaREST iMostoristaREST = IMostoristaREST.retrofit.create(IMostoristaREST.class);
+        final Call<Motorista> call = iMostoristaREST.getLivroPorId(id);
         dialog = new ProgressDialog(MotoristaEditActivity.this);
         dialog.setMessage("Carregando...");
         dialog.setCancelable(false);
@@ -58,7 +58,7 @@ public class MotoristaEditActivity extends AppCompatActivity {
             }
         });
 
-        Button alterar = (Button) findViewById(R.id.btnEditLivro);
+        Button alterar = (Button) findViewById(R.id.btnEditMotorista);
         alterar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -70,7 +70,7 @@ public class MotoristaEditActivity extends AppCompatActivity {
                 motorista.setNome(nome.getText().toString());
                 motorista.setAutor(autor.getText().toString());
                 motorista.setAno(Integer.parseInt(ano.getText().toString()));
-                Call<Void> call = iLivrosREST.alteraLivro(id, motorista);
+                Call<Void> call = iMostoristaREST.alteraLivro(id, motorista);
                 call.enqueue(new Callback<Void>() {
                     @Override
                     public void onResponse(Call<Void> call, Response<Void> response) {
@@ -89,7 +89,7 @@ public class MotoristaEditActivity extends AppCompatActivity {
 
             }
         });
-        Button remover = (Button) findViewById(R.id.btnDeleteLivro);
+        Button remover = (Button) findViewById(R.id.btnDeleteMotorista);
         remover.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -97,7 +97,7 @@ public class MotoristaEditActivity extends AppCompatActivity {
                 dialog.setMessage("Carregando...");
                 dialog.setCancelable(false);
                 dialog.show();
-                Call<Void> call = iLivrosREST.removeLivro(id);
+                Call<Void> call = iMostoristaREST.removeLivro(id);
                 call.enqueue(new Callback<Void>() {
                     @Override
                     public void onResponse(Call<Void> call, Response<Void> response) {

@@ -12,12 +12,12 @@ import java.util.List;
 import br.com.goschool.goschool_mobile.R;
 import br.com.goschool.goschool_mobile.activity.Modulos.Motorista;
 
-public class LivroAdapter extends ArrayAdapter<Motorista> {
+public class MotoristaAdapter extends ArrayAdapter<Motorista> {
     private final Context context;
     private final List<Motorista> elementos;
 
-    public LivroAdapter(Context context, List<Motorista> elementos) {
-        super(context, R.layout.linha, elementos);
+    public MotoristaAdapter(Context context, List<Motorista> elementos) {
+        super(context, R.layout.registro_motorista, elementos);
         this.context = context;
         this.elementos = elementos;
     }
@@ -28,7 +28,7 @@ public class LivroAdapter extends ArrayAdapter<Motorista> {
         LayoutInflater inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
-        View rowView = inflater.inflate(R.layout.linha, parent, false);
+        View rowView = inflater.inflate(R.layout.registro_motorista, parent, false);
 
         TextView titulo = (TextView) rowView.findViewById(R.id.txtNome);
         TextView ano = (TextView) rowView.findViewById(R.id.txtAno);

@@ -45,12 +45,12 @@
             android:hint="Ano do motorista" />
 
         <Button
+            android:id="@+id/btnAddMotorista"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Adicionar"
-            android:id="@+id/btnAddLivro"
             android:layout_below="@+id/edAno"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:text="Adicionar" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

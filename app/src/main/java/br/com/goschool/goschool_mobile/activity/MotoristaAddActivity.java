@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import br.com.goschool.goschool_mobile.R;
-import br.com.goschool.goschool_mobile.activity.Aplication.ILivrosREST;
+import br.com.goschool.goschool_mobile.activity.Aplication.IMostoristaREST;
 import br.com.goschool.goschool_mobile.activity.Modulos.Motorista;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -27,7 +27,7 @@ public class MotoristaAddActivity extends AppCompatActivity {
         final EditText nome = (EditText) findViewById(R.id.edNome);
         final EditText autor = (EditText) findViewById(R.id.edAutor);
         final EditText ano = (EditText) findViewById(R.id.edAno);
-        Button adicionar = (Button) findViewById(R.id.btnAddLivro);
+        Button adicionar = (Button) findViewById(R.id.btnAddMotorista);
         adicionar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,8 +39,8 @@ public class MotoristaAddActivity extends AppCompatActivity {
                 motorista.setNome(nome.getText().toString());
                 motorista.setAutor(autor.getText().toString());
                 motorista.setAno(Integer.parseInt(ano.getText().toString()));
-                ILivrosREST iLivrosREST = ILivrosREST.retrofit.create(ILivrosREST.class);
-                final Call<Void> call = iLivrosREST.insereLivro(motorista);
+                IMostoristaREST iMostoristaREST = IMostoristaREST.retrofit.create(IMostoristaREST.class);
+                final Call<Void> call = iMostoristaREST.insereLivro(motorista);
                 call.enqueue(new Callback<Void>() {
                     @Override
                     public void onResponse(Call<Void> call, Response<Void> response) {

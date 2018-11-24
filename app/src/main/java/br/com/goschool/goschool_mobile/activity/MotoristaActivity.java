@@ -17,8 +17,8 @@ import android.widget.Toast;
 import java.util.List;
 
 import br.com.goschool.goschool_mobile.R;
-import br.com.goschool.goschool_mobile.activity.Adapters.LivroAdapter;
-import br.com.goschool.goschool_mobile.activity.Aplication.ILivrosREST;
+import br.com.goschool.goschool_mobile.activity.Adapters.MotoristaAdapter;
+import br.com.goschool.goschool_mobile.activity.Aplication.IMostoristaREST;
 import br.com.goschool.goschool_mobile.activity.Modulos.Motorista;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -39,8 +39,8 @@ public class MotoristaActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent intent = new Intent(MotoristaActivity.this, MotoristaAddActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -50,12 +50,12 @@ public class MotoristaActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         final ListView lista = (ListView) findViewById(R.id.lvLivros);
-        ILivrosREST iLivrosREST = ILivrosREST.retrofit.create(ILivrosREST.class);
+        IMostoristaREST iMostoristaREST = IMostoristaREST.retrofit.create(IMostoristaREST.class);
         dialog = new ProgressDialog(MotoristaActivity.this);
         dialog.setMessage("Carregando...");
         dialog.setCancelable(false);
         dialog.show();
-        final Call<List<Motorista>> call = iLivrosREST.getLivros();
+        final Call<List<Motorista>> call = iMostoristaREST.getLivros();
         call.enqueue(new Callback<List<Motorista>>() {
             @Override
             public void onResponse(Call<List<Motorista>> call, Response<List<Motorista>> response) {
@@ -63,7 +63,7 @@ public class MotoristaActivity extends AppCompatActivity {
                     dialog.dismiss();
                 final List<Motorista> listaMotoristas = response.body();
                 if (listaMotoristas != null) {
-                    LivroAdapter adapter = new LivroAdapter(getBaseContext(), listaMotoristas);
+                    MotoristaAdapter adapter = new MotoristaAdapter(getBaseContext(), listaMotoristas);
                     lista.setAdapter(adapter);
                     lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                         @Override
