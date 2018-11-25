@@ -941,9 +941,9 @@ int id design_navigation_view 0x7f080046
 int id dimensions 0x7f080047
 int id direct 0x7f080048
 int id disableHome 0x7f080049
-int id edAno 0x7f08004a
-int id edAutor 0x7f08004b
-int id edNome 0x7f08004c
+int id edNome 0x7f08004a
+int id edcnh 0x7f08004b
+int id edcpf 0x7f08004c
 int id edit_query 0x7f08004d
 int id end 0x7f08004e
 int id end_padder 0x7f08004f
@@ -990,7 +990,7 @@ int id link_login 0x7f080077
 int id link_signup 0x7f080078
 int id listMode 0x7f080079
 int id list_item 0x7f08007a
-int id lvLivros 0x7f08007b
+int id lvMotorista 0x7f08007b
 int id map 0x7f08007c
 int id masked 0x7f08007d
 int id media_actions 0x7f08007e
@@ -1085,9 +1085,9 @@ int id transition_scene_layoutid_cache 0x7f0800d6
 int id transition_transform 0x7f0800d7
 int id tvDistance 0x7f0800d8
 int id tvDuration 0x7f0800d9
-int id txtAno 0x7f0800da
-int id txtAutor 0x7f0800db
-int id txtNome 0x7f0800dc
+int id txtMotororistaCNH 0x7f0800da
+int id txtMotororistaCPF 0x7f0800db
+int id txtMotororistaNome 0x7f0800dc
 int id uniform 0x7f0800dd
 int id up 0x7f0800de
 int id useLogo 0x7f0800df

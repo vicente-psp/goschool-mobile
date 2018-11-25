@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Go School</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">GoSchool</string>
+    <string name="action_settings">Configurações</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="title_activity_motorista">MotoristaActivity</string>
+    <string name="title_activity_maps">Verificar Localizações</string>
+    <string name="title_activity_motorista">Cadastro Motorista</string>
 </resources>

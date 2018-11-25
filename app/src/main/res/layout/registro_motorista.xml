@@ -14,57 +14,33 @@
         android:paddingRight="24dp">
 
         <TextView
-            android:id="@+id/txtNome"
-            android:layout_width="wrap_content"
+            android:id="@+id/txtMotororistaNome"
+            android:layout_width="232dp"
             android:layout_height="wrap_content"
             android:text="Nome"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
-        <!-- Name Label -->
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Autor"
-                android:id="@+id/txtAutor"
-                                                 />
-
-        </android.support.design.widget.TextInputLayout>
-
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp">
+                android:text="cnh"
+                android:id="@+id/txtMotororistaCNH" />
 
             <TextView
-                android:id="@+id/txtAno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Ano"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/txtMotororistaCPF"
+                android:text="cpf"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
-        </android.support.design.widget.TextInputLayout>
 
 
 
-        <!--  Email Label -->
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp">
-            <EditText android:id="@+id/input_email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"
-                android:hint="Email" />
-        </android.support.design.widget.TextInputLayout>
 
 
         <!--&lt;!&ndash; mobile number &ndash;&gt;-->

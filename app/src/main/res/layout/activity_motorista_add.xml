@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".activity.MotoristaAddActivity">
+    tools:context=".activity.motorista.MotoristaAddActivity">
 
 
     <LinearLayout
@@ -18,7 +18,7 @@
 
         <EditText
             android:id="@+id/edNome"
-            android:layout_width="211dp"
+            android:layout_width="213dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
@@ -26,29 +26,29 @@
             android:hint="Nome do motorista" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:id="@+id/edcnh"
+            android:layout_width="215dp"
             android:layout_height="wrap_content"
-            android:id="@+id/edAutor"
             android:layout_below="@+id/edNome"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
-            android:hint="Autor do motorista" />
+            android:hint="cnh do motorista" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:ems="10"
-            android:id="@+id/edAno"
-            android:layout_below="@+id/edAutor"
+            android:id="@+id/edcpf"
+            android:layout_below="@+id/edcnh"
             android:layout_alignParentStart="true"
-            android:hint="Ano do motorista" />
+            android:hint="cpf do motorista" />
 
         <Button
             android:id="@+id/btnAddMotorista"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/edAno"
+            android:layout_below="@+id/edcpf"
             android:layout_alignParentStart="true"
             android:text="Adicionar" />
 

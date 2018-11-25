@@ -8,56 +8,64 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".activity.MotoristaEditActivity">
+    tools:context=".activity.motorista.MotoristaEditActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="5dp">
 
         <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/edNome"
-            android:layout_alignParentTop="true"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:hint="Nome do motorista" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:id="@+id/edcnh"
+            android:layout_width="215dp"
             android:layout_height="wrap_content"
-            android:id="@+id/edAutor"
             android:layout_below="@+id/edNome"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
-            android:hint="Autor do motorista" />
+            android:hint="cnh do motorista" />
 
         <EditText
+            android:id="@+id/edcpf"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/edAno"
-            android:layout_below="@+id/edAutor"
+            android:layout_below="@+id/edcnh"
             android:layout_alignParentStart="true"
-            android:hint="Ano do motorista" />
+            android:ems="10"
+            android:hint="cpf do motorista"
+            android:inputType="number" />
 
-        <Button
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Alterar"
-            android:id="@+id/btnEditMotorista"
-            android:layout_below="@+id/edAno"
-            android:layout_alignParentStart="true" />
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btnDeleteMotorista"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/btnEditMotorista"
-            android:layout_toEndOf="@+id/btnEditMotorista"
-            android:text="Remover" />
+            <Button
+                android:id="@+id/btnDeleteMotorista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/btnEditMotorista"
+                android:layout_toEndOf="@+id/btnEditMotorista"
+                android:text="Remover" />
+
+            <Button
+                android:id="@+id/btnEditMotorista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edcpf"
+                android:layout_alignParentStart="true"
+                android:text="Alterar" />
+        </LinearLayout>
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

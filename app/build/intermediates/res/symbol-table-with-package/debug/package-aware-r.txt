@@ -942,9 +942,9 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
-id edAno
-id edAutor
 id edNome
+id edcnh
+id edcpf
 id edit_query
 id end
 id end_padder
@@ -991,7 +991,7 @@ id link_login
 id link_signup
 id listMode
 id list_item
-id lvLivros
+id lvMotorista
 id map
 id masked
 id media_actions
@@ -1086,9 +1086,9 @@ id transition_scene_layoutid_cache
 id transition_transform
 id tvDistance
 id tvDuration
-id txtAno
-id txtAutor
-id txtNome
+id txtMotororistaCNH
+id txtMotororistaCPF
+id txtMotororistaNome
 id uniform
 id up
 id useLogo

@@ -30,7 +30,8 @@
 
         <activity
             android:name="br.com.goschool.goschool_mobile.activity.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Dark" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,10 +39,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="br.com.goschool.goschool_mobile.activity.LoginActivity"
+            android:name="br.com.goschool.goschool_mobile.activity.login.LoginActivity"
             android:theme="@style/AppTheme.Dark" />
         <activity
-            android:name="br.com.goschool.goschool_mobile.activity.SignupActivity"
+            android:name="br.com.goschool.goschool_mobile.activity.login.SignupActivity"
             android:theme="@style/AppTheme.Dark" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -56,8 +57,9 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="br.com.goschool.goschool_mobile.activity.MapsActivity"
-            android:label="@string/title_activity_maps" >
+            android:name="br.com.goschool.goschool_mobile.activity.maps.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme.Dark" >
 
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
@@ -68,11 +70,15 @@
 
         </activity>
         <activity
-            android:name="br.com.goschool.goschool_mobile.activity.MotoristaActivity"
+            android:name="br.com.goschool.goschool_mobile.activity.motorista.MotoristaActivity"
             android:label="@string/title_activity_motorista"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="br.com.goschool.goschool_mobile.activity.MotoristaAddActivity" />
-        <activity android:name="br.com.goschool.goschool_mobile.activity.MotoristaEditActivity" />
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="br.com.goschool.goschool_mobile.activity.motorista.MotoristaAddActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="br.com.goschool.goschool_mobile.activity.motorista.MotoristaEditActivity"
+            android:theme="@style/AppTheme.Dark" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

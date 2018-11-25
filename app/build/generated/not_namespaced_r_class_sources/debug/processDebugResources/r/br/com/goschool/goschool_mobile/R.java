@@ -2118,7 +2118,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -3907,9 +3907,9 @@ public final class R {
     public static final int dimensions=0x7f080047;
     public static final int direct=0x7f080048;
     public static final int disableHome=0x7f080049;
-    public static final int edAno=0x7f08004a;
-    public static final int edAutor=0x7f08004b;
-    public static final int edNome=0x7f08004c;
+    public static final int edNome=0x7f08004a;
+    public static final int edcnh=0x7f08004b;
+    public static final int edcpf=0x7f08004c;
     public static final int edit_query=0x7f08004d;
     public static final int end=0x7f08004e;
     public static final int end_padder=0x7f08004f;
@@ -3956,7 +3956,7 @@ public final class R {
     public static final int link_signup=0x7f080078;
     public static final int listMode=0x7f080079;
     public static final int list_item=0x7f08007a;
-    public static final int lvLivros=0x7f08007b;
+    public static final int lvMotorista=0x7f08007b;
     public static final int map=0x7f08007c;
     public static final int masked=0x7f08007d;
     public static final int media_actions=0x7f08007e;
@@ -4051,9 +4051,9 @@ public final class R {
     public static final int transition_transform=0x7f0800d7;
     public static final int tvDistance=0x7f0800d8;
     public static final int tvDuration=0x7f0800d9;
-    public static final int txtAno=0x7f0800da;
-    public static final int txtAutor=0x7f0800db;
-    public static final int txtNome=0x7f0800dc;
+    public static final int txtMotororistaCNH=0x7f0800da;
+    public static final int txtMotororistaCPF=0x7f0800db;
+    public static final int txtMotororistaNome=0x7f0800dc;
     public static final int uniform=0x7f0800dd;
     public static final int up=0x7f0800de;
     public static final int useLogo=0x7f0800df;
@@ -9305,7 +9305,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
