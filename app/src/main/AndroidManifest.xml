@@ -64,8 +64,10 @@
             android:theme="@style/AppTheme.Dark"
             />
         <activity android:name=".activity.motorista.MotoristaAddActivity"
+            android:label="@string/title_activity_addmotorista"
             android:theme="@style/AppTheme.Dark"/>
         <activity android:name=".activity.motorista.MotoristaEditActivity"
+            android:label="@string/title_activity_editmotorista"
             android:theme="@style/AppTheme.Dark"></activity>
     </application>
 

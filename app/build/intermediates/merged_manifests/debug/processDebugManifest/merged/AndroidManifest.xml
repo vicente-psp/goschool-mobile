@@ -75,9 +75,11 @@
             android:theme="@style/AppTheme.Dark" />
         <activity
             android:name="br.com.goschool.goschool_mobile.activity.motorista.MotoristaAddActivity"
+            android:label="@string/title_activity_addmotorista"
             android:theme="@style/AppTheme.Dark" />
         <activity
             android:name="br.com.goschool.goschool_mobile.activity.motorista.MotoristaEditActivity"
+            android:label="@string/title_activity_editmotorista"
             android:theme="@style/AppTheme.Dark" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

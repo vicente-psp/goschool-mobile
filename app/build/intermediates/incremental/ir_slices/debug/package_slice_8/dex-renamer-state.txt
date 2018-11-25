@@ -1,4 +1,4 @@
-#Sun Nov 25 19:23:51 BRST 2018
+#Sun Nov 25 20:28:33 BRST 2018
 base.0=/Users/renatowsilva/AndroidStudioProjects/goschool-mobile/app/build/intermediates/transforms/dexMerger/debug/8
 path.0=classes.dex
 renamed.0=classes.dex

@@ -815,6 +815,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable adicionar
 drawable avd_hide_password
 drawable avd_show_password
 drawable common_full_open_on_phone
@@ -869,7 +870,9 @@ drawable start_blue
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id AddMotorista
 id CTRL
+id EditMotorista
 id FUNCTION
 id META
 id SHIFT
@@ -1242,6 +1245,8 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_activity_addmotorista
+string title_activity_editmotorista
 string title_activity_maps
 string title_activity_motorista
 style AlertDialog_AppCompat
