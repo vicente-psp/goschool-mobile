@@ -6,4 +6,5 @@
     <string name="title_activity_motorista">Motoristas Cadastrados</string>
     <string name="title_activity_addmotorista">Cadastrar Motorista</string>
     <string name="title_activity_editmotorista">Editar Motorista</string>
+    <string name="title_activity_estudante">EstudanteActivity</string>
 </resources>

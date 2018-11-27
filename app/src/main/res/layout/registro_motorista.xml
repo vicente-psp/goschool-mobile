@@ -41,54 +41,5 @@
 
 
 
-
-
-        <!--&lt;!&ndash; mobile number &ndash;&gt;-->
-        <!--<android.support.design.widget.TextInputLayout-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginTop="8dp"-->
-            <!--android:layout_marginBottom="8dp">-->
-
-            <!--<EditText-->
-                <!--android:id="@+id/input_mobile"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:hint="Numero Celular"-->
-                <!--android:inputType="number" />-->
-        <!--</android.support.design.widget.TextInputLayout>-->
-
-        <!--&lt;!&ndash; Password Label &ndash;&gt;-->
-        <!--<android.support.design.widget.TextInputLayout-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginTop="8dp"-->
-            <!--android:layout_marginBottom="8dp">-->
-
-            <!--<EditText-->
-                <!--android:id="@+id/input_password"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:hint="Senha"-->
-                <!--android:inputType="textPassword" />-->
-        <!--</android.support.design.widget.TextInputLayout>-->
-
-        <!--&lt;!&ndash; Password Re-enter Label &ndash;&gt;-->
-        <!--<android.support.design.widget.TextInputLayout-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginTop="8dp"-->
-            <!--android:layout_marginBottom="8dp">-->
-
-            <!--<EditText-->
-                <!--android:id="@+id/input_reEnterPassword"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:hint="Senha Novamente"-->
-                <!--android:inputType="textPassword" />-->
-        <!--</android.support.design.widget.TextInputLayout>-->
-
-
-
     </LinearLayout>
 </ScrollView>

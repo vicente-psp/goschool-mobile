@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/renatowsilva/AndroidStudioProjects/goschool-mobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "C:\\Users\\aluno\\StudioProjects\\goschool-mobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/renatowsilva/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/442b37b2e8f245907a4c1589ee6aaa21/res/values-v14/values-v14.xml",
+                    "source": "C:\\Users\\aluno\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.0.aar\\88b93b050a78510ae7b1d356e1dcc789\\res\\values-v14\\values-v14.xml",
                     "from": {
                         "startLines": "2,7,8,9,15",
                         "startColumns": "4,4,4,4,4",

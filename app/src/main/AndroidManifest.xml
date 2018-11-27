@@ -12,7 +12,6 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
@@ -61,14 +60,21 @@
         <activity
             android:name=".activity.motorista.MotoristaActivity"
             android:label="@string/title_activity_motorista"
-            android:theme="@style/AppTheme.Dark"
-            />
-        <activity android:name=".activity.motorista.MotoristaAddActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".activity.motorista.MotoristaAddActivity"
             android:label="@string/title_activity_addmotorista"
-            android:theme="@style/AppTheme.Dark"/>
-        <activity android:name=".activity.motorista.MotoristaEditActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".activity.motorista.MotoristaEditActivity"
             android:label="@string/title_activity_editmotorista"
-            android:theme="@style/AppTheme.Dark"></activity>
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".activity.estudante.EstudanteActivity"
+            android:label="@string/title_activity_estudante"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.estudante.EstudanteAddActivity" />
+        <activity android:name=".activity.estudante.EstudanteEditActivity"></activity>
     </application>
 
 </manifest>
