@@ -28,9 +28,9 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
-import ModulesMaps.DirectionFinder;
-import ModulesMaps.DirectionFinderListener;
-import ModulesMaps.Route;
+import br.com.goschool.goschool_mobile.modules.DirectionFinder;
+import br.com.goschool.goschool_mobile.modules.DirectionFinderListener;
+import br.com.goschool.goschool_mobile.modules.Route;
 
 import br.com.goschool.goschool_mobile.R;
 

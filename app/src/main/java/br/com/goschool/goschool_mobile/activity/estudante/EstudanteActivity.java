@@ -15,9 +15,9 @@ import android.widget.Toast;
 
 import java.util.List;
 
-import br.com.goschool.goschool_mobile.Adapters.EstudanteAdapter;
-import br.com.goschool.goschool_mobile.Aplication.IMostoristaREST;
-import br.com.goschool.goschool_mobile.Modulos.Estudante;
+import br.com.goschool.goschool_mobile.adapters.EstudanteAdapter;
+import br.com.goschool.goschool_mobile.aplication.IMostoristaREST;
+import br.com.goschool.goschool_mobile.models.Estudante;
 import br.com.goschool.goschool_mobile.R;
 
 import retrofit2.Call;

@@ -8,8 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import br.com.goschool.goschool_mobile.Aplication.IMostoristaREST;
-import br.com.goschool.goschool_mobile.Modulos.Estudante;
+import br.com.goschool.goschool_mobile.aplication.IMostoristaREST;
+import br.com.goschool.goschool_mobile.models.Estudante;
 import br.com.goschool.goschool_mobile.R;
 import retrofit2.Call;
 import retrofit2.Callback;

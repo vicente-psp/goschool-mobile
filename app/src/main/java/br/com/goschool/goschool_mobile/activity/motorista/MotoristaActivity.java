@@ -15,9 +15,9 @@ import android.widget.Toast;
 
 import java.util.List;
 
-import br.com.goschool.goschool_mobile.Adapters.MotoristaAdapter;
-import br.com.goschool.goschool_mobile.Aplication.IMostoristaREST;
-import br.com.goschool.goschool_mobile.Modulos.Motorista;
+import br.com.goschool.goschool_mobile.adapters.MotoristaAdapter;
+import br.com.goschool.goschool_mobile.aplication.IMostoristaREST;
+import br.com.goschool.goschool_mobile.models.Motorista;
 import br.com.goschool.goschool_mobile.R;
 import retrofit2.Call;
 import retrofit2.Callback;
